@@ -17,7 +17,7 @@ Each episode continues until `max_t` time-steps is reached or until the environm
 
 As above, a reward of +0.1 is provided for each step that the agent's hand is in the goal location.
 
-The DDPG agent is contained in [`ddpg_agent.py`](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/ddpg_agent.py)
+The DDPG agent is contained in [`ddpg_agent.py`](https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continous-Control/blob/master/ddpg_agent.py)
 
 For each time step and agent the Agent acts upon the state utilising a shared (at class level) `replay_buffer`, `actor_local`, `actor_target`, `actor_optimizer`, `critic_local`, `criticl_target` and `critic_optimizer` networks.
 
@@ -51,7 +51,7 @@ Succesful training was also achieved with `N_LEARN_UPDATES = 8` in a shorter num
 
 ### Neural Networks
 
-Actor and Critic network models were defined in [`ddpg_model.py`](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/ddpg_model.py).
+Actor and Critic network models were defined in [`ddpg_model.py`]https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continous-Control/blob/master/ddpg_model.py).
 
 The Actor networks utilised two fully connected layers with 256 and 128 units with relu activation and tanh activation for the action space. The network has an initial dimension the same as the state size.
 
