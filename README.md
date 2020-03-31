@@ -1,4 +1,4 @@
-# Deep-Reinforcement-Learning--Continous-Control
+# Deep-Reinforcement-Learning--Continuous-Control
 My Solution to the second Deep RL Continuous Control Project
 
 # DRLND Continuous Control Project
