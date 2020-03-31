@@ -7,7 +7,7 @@ This is the second project in the Udacity Deep Reinforcement Learning Nanodegree
 
 This project works with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
-[![Trained Agent](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/output/reacherp_ddpg_agent_small.gif?raw=true)](https://www.youtube.com/watch?v=FMImonF4VIk)
+[![Trained Agent](https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continuous-Control/blob/master/Output/Unity%20Reacher.gif)](https://www.youtube.com/watch?v=FMImonF4VIk)
 
 ## Project Details
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
@@ -36,10 +36,10 @@ The file needs to placed in the root directory of the repository and unzipped.
 Next, before starting the environment utilising the corresponding prebuilt app from Udacity  **Before running the code cell in the notebook**, change the `file_name` parameter to match the location of the Unity environment that you downloaded.
 
 ## Instructions
-Then run the [`DDPG_Continuous_Control.ipynb`](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/DDPG_Continuous_Control.ipynb) notebook using the drlnd kernel to train the DDPG agent.
+Then run the [`DDPG_Continuous_Control.ipynb`](https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continuous-Control/blob/master/Continuous_Control.ipynb) notebook using the drlnd kernel to train the DDPG agent.
 
 Once trained the model weights will be saved in the same directory in the files `checkpoint_actor.pth` and `checkpint_critic.pth`.
 
-The model weights are used by the [`Trained Agent.ipynb` ](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/Trained%20Agent.ipynb) notebook against the simulator. 
+The model weights are used by the [`Trained Agent.ipynb` ](https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continuous-Control/blob/master/Trained%20Agent.ipynb) notebook against the simulator. 
 
 [Simulator Output Video](https://www.youtube.com/watch?v=FMImonF4VIk)
