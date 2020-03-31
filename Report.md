@@ -58,16 +58,19 @@ The Actor networks utilised two fully connected layers with 256 and 128 units wi
 The Critic networks utilised two fully connected layers with 256 and 128 units with leaky_relu activation. The critic network has  an initial dimension the size of the state size plus action size.
 
 ## Plot of rewards
-![Reward Plot](https://github.com/hortovanyi/DRLND-Continuous-Control/blob/master/output/result.png?raw=true)
+![Reward Plot](https://github.com/Shubha-Manikarnike/Deep-Reinforcement-Learning---Continuous-Control/blob/master/Output/Output.png?raw=true)
 
 ```
-Episode 174	Score: 29.67	Average Score: 29.68
-Episode 175	Score: 31.19	Average Score: 29.78
-Episode 176	Score: 30.51	Average Score: 29.88
-Episode 177	Score: 30.17	Average Score: 29.95
-Episode 178	Score: 31.49	Average Score: 30.04
+Episode 155	Score: 32.33	Average Score: 29.1617
+Episode 156	Score: 33.03	Average Score: 29.2987
+Episode 157	Score: 32.62	Average Score: 29.4370
+Episode 158	Score: 32.34	Average Score: 29.5510
+Episode 159	Score: 32.85	Average Score: 29.7084
+Episode 160	Score: 33.55	Average Score: 29.8305
+Episode 161	Score: 32.33	Average Score: 29.9425
+Episode 162	Score: 31.93	Average Score: 30.0751
 
-Environment solved in 78 episodes!	Average Score: 30.04
+Environment solved in 62 episodes!	Average Score: 30.07
 ```
 
 ## Ideas for Future Work
